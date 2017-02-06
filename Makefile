@@ -174,6 +174,7 @@ UPROGS=\
 	_zombie\
  	_hello\
 	_tail\
+	_tail2\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)
