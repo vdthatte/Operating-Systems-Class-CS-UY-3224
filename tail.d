@@ -1,1 +1,1 @@
-tail.o: tail.c types.h user.h
+tail.o: tail.c types.h stat.h user.h
