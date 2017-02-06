@@ -2,7 +2,7 @@
 #include "stat.h"
 #include "user.h"
 
-char buf[512];
+char buf[1024];
 
 int
 countlines(int fd, char *name)
@@ -65,7 +65,7 @@ main(int argc, char *argv[])
   int filePos = 1;
 
   if(argc <= 1){
-    countlines(0, "");
+    pc(0, "", 0,0);
     exit();
   }
   
